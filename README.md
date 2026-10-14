@@ -49,15 +49,19 @@ and peripheral expansion on a compact 50 × 50 mm PCB.
 ---
 
 ## Repository Structure
+
+```
 ESP32-S3-testboard/
 ├── ESP32-S3-testboard.kicad_pro
 ├── ESP32-S3-testboard.kicad_sch
 ├── ESP32-S3-testboard.kicad_pcb
 ├── fabrications/
 ├── docs/
-│ ├── pcb_top.png
-│ └── pcb_bottom.png
+│   ├── pcb_top.png
+│   └── pcb_bottom.png
+├── .gitignore
 └── README.md
+```
 
 ---
 
