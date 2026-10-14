@@ -52,11 +52,16 @@ and peripheral expansion on a compact 50 × 50 mm PCB.
 
 ```
 ESP32-S3-testboard/
-├── ESP32-S3-testboard.kicad_pro
-├── ESP32-S3-testboard.kicad_sch
-├── ESP32-S3-testboard.kicad_pcb
+├── hardware/
+│   ├── ESP32-S3-testboard.kicad_pro
+│   ├── ESP32-S3-testboard.kicad_sch
+│   └── ESP32-S3-testboard.kicad_pcb
 ├── fabrications/
+│   ├── BOM.csv
+│   └── gerbers.zip
 ├── docs/
+│   ├── ESP32-S3-testboard.pdf
+│   ├── esp32-s3-wroom-2_datasheet_en.pdf
 │   ├── pcb_top.png
 │   └── pcb_bottom.png
 ├── .gitignore
